@@ -18,10 +18,10 @@ function Restaurant(rest) {
       <DescriptionBox>
         <Title>{rest.name}</Title>
         { rest.location && <Address>{rest.location.locality_verbose}</Address>}
-        { rest.user_rating && <Stars qty={ Math.round(parseFloat(rest.user_rating.aggregate_rating))} /> }
+        <Stars qty={ rest.user_rating.aggregate_rating } />
         <Meta>
           <FeaturedSuccess><TwoPeopleIcon />{rest.currency}{rest.average_cost_for_two}</FeaturedSuccess>
-          <Featured>Japonesa</Featured>
+          <Featured>{rest.cuisines}</Featured>
         </Meta>
       </DescriptionBox>
     </Container>

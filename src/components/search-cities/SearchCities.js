@@ -69,7 +69,7 @@ function SearchCitiesResultsList ({ cities, select }) {
 function LoadingIcon ({ loading = false }) {
   if (loading) {
     return (
-      <IconContainer className="isLoading" rotate="true">
+      <IconContainer className="isLoading">
         <CircleNotchIcon />
       </IconContainer>
     )

@@ -27,7 +27,7 @@ export const LogoArea = styled.div`
   justify-content: center;
   align-items: center;
   @media(min-width: ${breakpoints.md}){
-    flex: 250px 0 0;
+    flex: 230px 0 0;
   }
 `
 
@@ -57,10 +57,9 @@ export const Sidebar = styled.div`
 
 export const Content = styled.div`
   padding: 20px;
-  padding-left: 0;
   @media(min-width: ${breakpoints.md}){
     margin-left: 250px;
-    padding-left: 20px;
+    padding-left: 0;
   }
 `
 

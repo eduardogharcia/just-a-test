@@ -1,4 +1,5 @@
 import axios from 'axios'
+import slugify  from 'slugify'
 
 const api = axios.create({
   baseURL: 'https://developers.zomato.com/api/v2.1',
@@ -20,10 +21,41 @@ export const searchCities = async (searchTerm) => {
 
 export const restaurantsByCityId = async (cityId) => {
   const response = await api.get(`/search?city_id=${cityId}`)
-  return response.data.restaurants.map(objWrapper => objWrapper.restaurant)
+  const restaurants = response.data.restaurants
+    .map(objWrapper => objWrapper.restaurant)
+    .filter(filterRequiredApiReturns)
+    .map(restaurant => {
+      return {
+        ...restaurant,
+        cuisinesTypes: prepareCuisinesTypes(restaurant),
+        user_rating: {
+          ...restaurant.user_rating,
+          aggregate_rating: Math.round(parseFloat(restaurant.user_rating.aggregate_rating))
+        }
+      }
+    })
+    
+
+  return restaurants
 }
 
 export const establishmentsByCityId = async (cityId) => {
   const response = await api.get(`/establishments?city_id=${cityId}`)
   return response.data.establishments
+}
+
+
+function prepareCuisinesTypes (restaurant) {
+  return restaurant.cuisines
+    .split(',')
+    .map(cuisine => {
+      return {
+        slug: slugify(cuisine.trim().toLowerCase()),
+        name: cuisine.trim()
+      }
+    })
+}
+
+function filterRequiredApiReturns (rest) {
+  return rest.user_rating && rest.user_rating.aggregate_rating
 }
