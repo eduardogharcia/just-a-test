@@ -160,7 +160,6 @@ function filterByValue (restaurants, minMaxValues) {
       return rest.average_cost_for_two >= mm.min && rest.average_cost_for_two <= mm.max
     }, false)
   })
-  return restaurants
 }
 
 function filterByCuisine (restaurants, cuisines) {
