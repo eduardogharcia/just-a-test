@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import img from './../../assets/bg.jpg';
+import breakpoints from './../../styles/Breakpoints'
 
 export const Container = styled.div`
   background-color: #18130f;
@@ -18,14 +19,18 @@ export const ContentWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 15px;
 `
 export const LogoWrapper = styled.div`
   position: absolute;
   top: 50px;
 `
 export const Title = styled.h2`
-  font-size: 3.333em;
+  font-size: 2em;
   line-height: 1em;
   color: #fff;
   font-weight: 800;
+  @media(min-width: ${breakpoints.md}){
+    font-size: 3.333em;
+  }
 `

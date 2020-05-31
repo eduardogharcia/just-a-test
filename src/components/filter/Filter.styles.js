@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   padding: 20px;
 `
 export const Fieldset = styled.fieldset`
@@ -24,6 +25,9 @@ export const Fieldset = styled.fieldset`
     cursor: pointer;
     span{
       margin-left: 10px;
+    }
+    svg {
+      max-width: 18px;
     }
   }
 `

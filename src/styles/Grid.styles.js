@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import breakpoints from './Breakpoints'
 
 export const Row = styled.div`
   display: flex;
@@ -8,10 +9,27 @@ export const Row = styled.div`
 `
 export const Column = styled.div`
   margin-bottom: 30px;
-  > * {
-    margin: 0 15px;
+  flex: 100%;
+  padding: 0 15px;
+  @media only screen and (min-width: ${breakpoints.sm}) {
+    ${({ sm }) => sm && getWidth(sm)}
   }
-  @media(min-width: 700px) {
-    flex: 33.333% 0 0;
+  @media only screen and (min-width: ${breakpoints.md}) {
+    ${({ md }) => md && getWidth(md)}
+  }
+  @media only screen and (min-width: ${breakpoints.lg}) {
+    ${({ lg }) => lg && getWidth(lg)}
+  }
+  @media only screen and (min-width: ${breakpoints.xl}) {
+    ${({ xl }) => xl && getWidth(xl)}
   }
 `
+
+const getWidth = (columnSizeParts) => {
+  if (!columnSizeParts) return
+  const width = (columnSizeParts / 12) * 100
+  return `
+    flex: ${width}%;
+    max-width: ${width}%;
+    `
+}

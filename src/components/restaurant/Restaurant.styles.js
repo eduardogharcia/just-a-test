@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 `
 export const ProfilePic = styled.img`
   width: 100%;
@@ -9,6 +9,13 @@ export const ProfilePic = styled.img`
 `
 export const DescriptionBox = styled.div`
   padding: 15px;
+  svg{
+    max-width: 18px;
+  }
+  svg > * {
+    fill: #39b54a;
+    max-width: 20px;
+  }
 `
 export const Title = styled.h3`
   font-weight: 600;
@@ -24,8 +31,18 @@ export const Address = styled.p`
 `
 export const Meta = styled.div`
   display: flex;
+  margin-top: 10px;
   > div {
     margin-right: 10px;
+  }
+  svg {
+    display: inline-block;
+    width: 20px;
+    margin-right: 10px;
+  }
+  svg > * {
+    fill: #fff;
+    max-width: 20px;
   }
 `
 export const Featured = styled.div`

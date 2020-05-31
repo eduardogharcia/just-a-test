@@ -10,23 +10,23 @@ function Filter() {
         <legend>Nota</legend>
         <label htmlFor="nota_1">
           <input type="checkbox" name="nota_1" id="nota_1" />
-          <Stars stars="1" />
+          <Stars qty="1" type="outlined" />
         </label>
         <label htmlFor="nota_2">
           <input type="checkbox" name="nota_2" id="nota_2" />
-          <Stars stars="2" />
+          <Stars qty="2" type="outlined" />
         </label>
         <label htmlFor="nota_3">
           <input type="checkbox" name="nota_3" id="nota_3" />
-          <Stars stars="3" />
+          <Stars qty="3" type="outlined" />
         </label>
         <label htmlFor="nota_4">
           <input type="checkbox" name="nota_4" id="nota_4" />
-          <Stars stars="4" />
+          <Stars qty="4" type="outlined" />
         </label>
         <label htmlFor="nota_5">
           <input type="checkbox" name="nota_5" id="nota_5" />
-          <Stars stars="5" />
+          <Stars qty="5" type="outlined" />
         </label>
       </Fieldset>
       <Fieldset>

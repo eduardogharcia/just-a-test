@@ -8,7 +8,8 @@ import {
   SearchCitiesArea,
   Main,
   Sidebar,
-  Content
+  Content,
+  LoadingWrapper
 } from './Restaurants.styles'
 import { Row, Column } from './../../styles/Grid.styles'
 import Logo from './../../components/logo/Logo'
@@ -16,16 +17,17 @@ import SearchCities from './../../components/search-cities/SearchCities'
 import Filter from './../../components/filter/Filter'
 import Restaurant from './../../components/restaurant/Restaurant'
 import { restaurantsByCityId } from './../../services/api'
+import LoadSpinner from './../../components/load-spinner/LoadSpinner'
 
 function Restaurants() {
   const { cityId } = useParams()
-  const [isLoading, setIsLoading] = useState(true)
+  const [isLoadingRestaurants, setIsLoadingRestaurants] = useState(true)
   const [title, seTtitle] = useState('')
   const [restaurants, setRestaurants] = useState(true)
 
   useEffect(() => {
     async function load () {
-      setIsLoading(true)
+      setIsLoadingRestaurants(true)
       const restaurants = await restaurantsByCityId(cityId)
       setRestaurants(restaurants)
 
@@ -37,7 +39,7 @@ function Restaurants() {
         })
         .location.city
       )
-      setIsLoading(false)
+      setIsLoadingRestaurants(false)
     }
     load()
   }, [cityId])
@@ -59,21 +61,23 @@ function Restaurants() {
           <Filter />
         </Sidebar>
         <Content>
-          <h2>Restaurantes em {title}</h2>
           {
-            !isLoading ? 
-            <Row>
-              {
-                restaurants.map((restaurant) => {
-                  return (
-                    <Column key={restaurant.id}>
-                      <Restaurant {...restaurant} />
-                    </Column>
-                  )
-                })
-              }
-            </Row>
-            : 'Loading...'
+            !isLoadingRestaurants ?
+            <>
+              <h2>Restaurantes em {title}</h2>
+              <Row>
+                {
+                  restaurants.map((restaurant) => {
+                    return (
+                      <Column key={restaurant.id} sm={6} lg={4} teste={'asdf'}>
+                        <Restaurant {...restaurant} />
+                      </Column>
+                    )
+                  })
+                }
+              </Row>
+            </>
+            : <LoadingWrapper><LoadSpinner /></LoadingWrapper>
           }
         </Content>
       </Main>
