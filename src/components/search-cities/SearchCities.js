@@ -18,6 +18,8 @@ const SearchCities = () => {
 
   const handleSubmit = async (evt) => {
     evt.preventDefault()
+    if (!searchTerm || isLoadingCities) return
+
     setIsLoadingCities(true)
     const cities = await searchCities(searchTerm)
     setCities(cities)
