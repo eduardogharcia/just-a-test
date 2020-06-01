@@ -73,7 +73,7 @@ function Restaurants({ modal = () => {}}) {
           </Link>
         </LogoArea>
         <SearchCitiesArea>
-          <SearchCities />
+          <SearchCities modal={modal} />
         </SearchCitiesArea>
       </Header>
       <Main>
