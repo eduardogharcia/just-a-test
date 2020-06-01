@@ -20,6 +20,10 @@ export const ContentWrapper = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 15px;
+  .result-list{
+    top: auto;
+    bottom: 50px;
+  }
 `
 export const LogoWrapper = styled.div`
   position: absolute;
