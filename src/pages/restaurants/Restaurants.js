@@ -20,7 +20,7 @@ import Restaurant from './../../components/restaurant/Restaurant'
 import { restaurantsByCityId } from './../../services/api'
 import LoadSpinner from './../../components/load-spinner/LoadSpinner'
 
-function Restaurants() {
+function Restaurants({ modal = () => {}}) {
   const { cityId } = useParams()
   const [isLoadingRestaurants, setIsLoadingRestaurants] = useState(true)
   const [title, seTtitle] = useState('')
@@ -33,15 +33,20 @@ function Restaurants() {
     setFilterOptions(null)
     async function load () {
       setIsLoadingRestaurants(true)
-      const restaurants = await restaurantsByCityId(cityId)
-      setRestaurants(restaurants)
+      try {
+        const restaurants = await restaurantsByCityId(cityId)
+        setRestaurants(restaurants)
+        seTtitle(getPageTitle(restaurants))
+        setCuisines(getCuisinesGroupedToFilters(restaurants))
+      } catch (error) {
+        modal('Ocorreu um problema ao conectar com o servidor')
+      } finally {
+        setIsLoadingRestaurants(false)
+      }
 
-      seTtitle(getPageTitle(restaurants))
-      setCuisines(getCuisinesGroupedToFilters(restaurants))
-      setIsLoadingRestaurants(false)
     }
     load()
-  }, [cityId])
+  }, [cityId, modal])
 
   useEffect(() => {
     setRestaurantsToShow(applyFilters(restaurants, filterOptions))
@@ -76,7 +81,7 @@ function Restaurants() {
             !isLoadingRestaurants ?
             <>
               <h2>Restaurantes em {title}</h2>
-              <Row>
+              <Row className="result-area">
                 {
                   restaurantsToShow.map((restaurant) => {
                     return (

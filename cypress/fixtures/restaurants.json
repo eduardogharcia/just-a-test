@@ -1,0 +1,1987 @@
+{
+  "results_found": 1778,
+  "results_start": 0,
+  "results_shown": 20,
+  "restaurants": [
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6600440
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6600440",
+        "name": "Nau",
+        "url": "https:\/\/www.zomato.com\/brasilia\/nau-setor-de-clubes-esportivos-sul-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "SCES, Trecho 2, Conjunto 41, Setor de Clubes Esportivos Sul, Brasília",
+          "locality": "Setor De Clubes Esportivos Sul",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.8181666667",
+          "longitude": "-47.8365000000",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Setor De Clubes Esportivos Sul, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Seafood",
+        "timings": "12:00 to 15:30, 18:30 to 23:00 (Mon-Fri),12:00 to 22:00 (Sat-Sun)",
+        "average_cost_for_two": 130,
+        "price_range": 4,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Lunch",
+          "Serves Alcohol",
+          "Dinner",
+          "Air Conditioned",
+          "Outdoor Seating",
+          "Wifi"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.9",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.9"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "600"
+            }
+          },
+          "votes": "10"
+        },
+        "all_reviews_count": 7,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/nau-setor-de-clubes-esportivos-sul-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 189,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/nau-setor-de-clubes-esportivos-sul-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6600440",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/nau-setor-de-clubes-esportivos-sul-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 32520155",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Fine Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6600427
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6600427",
+        "name": "Coco Bambu",
+        "url": "https:\/\/www.zomato.com\/brasilia\/coco-bambu-setor-de-clubes-esportivos-sul?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "SCES, Trecho 2, Conjunto 13\/36, Setor de Clubes Esportivos Sul, Brasília",
+          "locality": "Setor De Clubes Esportivos Sul",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.8190000000",
+          "longitude": "-47.8685000000",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Setor De Clubes Esportivos Sul, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "International",
+        "timings": "11:30 to 24:00 (Mon, Tue, Wed, Thu, Sun), 11:30 to 02:00 (Fri-Sat)",
+        "average_cost_for_two": 230,
+        "price_range": 4,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Lunch",
+          "Serves Alcohol",
+          "Dinner",
+          "Air Conditioned",
+          "Outdoor Seating",
+          "Wifi"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "1",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "1"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "600"
+            }
+          },
+          "votes": "34"
+        },
+        "all_reviews_count": 17,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/coco-bambu-setor-de-clubes-esportivos-sul\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 206,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/coco-bambu-setor-de-clubes-esportivos-sul\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6600427",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/coco-bambu-setor-de-clubes-esportivos-sul\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 32245585",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Fine Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6601862
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6601862",
+        "name": "Taypá",
+        "url": "https:\/\/www.zomato.com\/brasilia\/taypá-lago-sul?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Fashion Park, Shis Ql 17, Bloco G, Loja 208, Lago Sul, Brasília",
+          "locality": "Lago Sul",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.8606210000",
+          "longitude": "-47.8723590000",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Lago Sul, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Peruvian, Latin American",
+        "timings": "12:00 to 15:00, 19:00 to 24:00 (Mon-Thu),12:00 to 15:00, 19:00 to 01:00 (Fri),12:00 to 16:00, 19:00 to 01:00 (Sat),12:00 to 17:00 (Sun)",
+        "average_cost_for_two": 100,
+        "price_range": 4,
+        "currency": "R$",
+        "highlights": [
+          "Dinner",
+          "Lunch",
+          "Serves Alcohol",
+          "Serves Cocktails",
+          "Fullbar",
+          "Indoor Seating"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.9",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.9"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "600"
+            }
+          },
+          "votes": "12"
+        },
+        "all_reviews_count": 7,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/taypá-lago-sul\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 225,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/taypá-lago-sul\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6601862",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/taypá-lago-sul\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 32480403, 061 33640403",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Casual Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6601589
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6601589",
+        "name": "Coco Bambu",
+        "url": "https:\/\/www.zomato.com\/brasilia\/coco-bambu-asa-norte?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Brasília Shopping - Piso 2, SCN 5, Bloco A, Asa Norte, Brasília",
+          "locality": "Brasília Shopping, Asa Norte",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.7865000000",
+          "longitude": "-47.8890000000",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Brasília Shopping, Asa Norte, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "International",
+        "timings": "11:30 to 24:00 (Mon-Sun)",
+        "average_cost_for_two": 230,
+        "price_range": 4,
+        "currency": "R$",
+        "highlights": [
+          "Lunch",
+          "Serves Alcohol",
+          "Credit Card",
+          "Dinner",
+          "Air Conditioned",
+          "Indoor Seating",
+          "Wifi"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.9",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.9"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "600"
+            }
+          },
+          "votes": "21"
+        },
+        "all_reviews_count": 10,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/coco-bambu-asa-norte\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 168,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/coco-bambu-asa-norte\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6601589",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/coco-bambu-asa-norte\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 30381818",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Fine Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6601218
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6601218",
+        "name": "New Koto",
+        "url": "https:\/\/www.zomato.com\/brasilia\/new-koto-asa-sul-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "SCS 212, Bloco B, Loja 26, Asa Sul, Brasília",
+          "locality": "Asa Sul",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.8273333333",
+          "longitude": "-47.9101666667",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Asa Sul, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Japanese",
+        "timings": "12:00 to 15:00, 19:00 to 23:00 (Mon-Sat),19:00 to 22:00 (Sun)",
+        "average_cost_for_two": 200,
+        "price_range": 4,
+        "currency": "R$",
+        "highlights": [
+          "Serves Alcohol",
+          "Air Conditioned",
+          "Wifi"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.9",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.9"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "600"
+            }
+          },
+          "votes": "10"
+        },
+        "all_reviews_count": 8,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/new-koto-asa-sul-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 91,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/new-koto-asa-sul-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6601218",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/new-koto-asa-sul-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 33469668",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Fine Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6600214
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6600214",
+        "name": "Beirute",
+        "url": "https:\/\/www.zomato.com\/brasilia\/beirute-asa-sul-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "CLS 109, Bloco A, Loja 2\/6, Asa Sul, Brasília",
+          "locality": "Asa Sul",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.8200000000",
+          "longitude": "-47.9075000000",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Asa Sul, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Arabian",
+        "timings": "11:00 to 01:00 (Mon-Wed),11:00 to 02:00 (Thu-Sat),Closed (Sun)",
+        "average_cost_for_two": 90,
+        "price_range": 3,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Dinner",
+          "Lunch",
+          "Serves Alcohol",
+          "Air Conditioned",
+          "Nightlife",
+          "Outdoor Seating"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.9",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.9"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "600"
+            }
+          },
+          "votes": "11"
+        },
+        "all_reviews_count": 6,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/beirute-asa-sul-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 141,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/beirute-asa-sul-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6600214",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/beirute-asa-sul-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 32441717",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Bar"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6601457
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6601457",
+        "name": "Brazilian American Burgers",
+        "url": "https:\/\/www.zomato.com\/brasilia\/brazilian-american-burgers-sudoeste-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "CLSN 301, Bloco C, Loja 86, Sudoeste, Brasília",
+          "locality": "Sudoeste",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.7975305556",
+          "longitude": "-47.9210277778",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Sudoeste, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "American, Burger",
+        "timings": "10:30 to 22:30 (Mon-Sun)",
+        "average_cost_for_two": 50,
+        "price_range": 2,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Dinner",
+          "Lunch",
+          "Serves Alcohol",
+          "Air Conditioned",
+          "Indoor Seating"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.7",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.7"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "600"
+            }
+          },
+          "votes": "12"
+        },
+        "all_reviews_count": 6,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/brazilian-american-burgers-sudoeste-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 50,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/brazilian-american-burgers-sudoeste-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6601457",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/brazilian-american-burgers-sudoeste-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 30914349",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Casual Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6601602
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6601602",
+        "name": "Taco Pep",
+        "url": "https:\/\/www.zomato.com\/brasilia\/taco-pep-águas-claras-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Vila Malls, Avenida das Castanheiras, Lote 1060, Ãguas Claras, Brasília",
+          "locality": "Águas Claras",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.8348333333",
+          "longitude": "-48.0166666667",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Águas Claras, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Mexican, Grill",
+        "timings": "Closed (Mon),19:00 to 24:00 (Tue-Sun)",
+        "average_cost_for_two": 100,
+        "price_range": 4,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Dinner",
+          "Indoor Seating",
+          "Buffet"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.9",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.9"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "600"
+            }
+          },
+          "votes": "34"
+        },
+        "all_reviews_count": 13,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/taco-pep-águas-claras-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 9,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/taco-pep-águas-claras-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6601602",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/taco-pep-águas-claras-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 33828777",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Casual Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6600083
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6600083",
+        "name": "Villa Tevere",
+        "url": "https:\/\/www.zomato.com\/brasilia\/villa-tevere-asa-sul-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "CLS 115, Bloco A, Loja 2, Asa Sul, Brasília",
+          "locality": "Asa Sul",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.8313333333",
+          "longitude": "-47.9236666667",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Asa Sul, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Italian",
+        "timings": "Closed (Mon),12:00 to 15:00 (Tue-Sat),12:00 to 17:00 (Sun)",
+        "average_cost_for_two": 150,
+        "price_range": 4,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Lunch",
+          "Serves Alcohol",
+          "Dinner",
+          "Indoor Seating"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.7",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.7"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "600"
+            }
+          },
+          "votes": "16"
+        },
+        "all_reviews_count": 12,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/villa-tevere-asa-sul-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 148,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/villa-tevere-asa-sul-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6600083",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/villa-tevere-asa-sul-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 33455513",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Fine Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6600441
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6600441",
+        "name": "Maori",
+        "url": "https:\/\/www.zomato.com\/brasilia\/maori-asa-norte-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "CLN 110, Bloco D, Loja 28, Asa Norte, Brasília",
+          "locality": "Asa Norte",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.7588333333",
+          "longitude": "-47.8881666667",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Asa Norte, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Brazilian",
+        "timings": "12:00 to 23:00 (Mon-Sat),Closed (Sun)",
+        "average_cost_for_two": 60,
+        "price_range": 3,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Dinner",
+          "Lunch",
+          "Serves Alcohol",
+          "Outdoor Seating"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.7",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.7"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "600"
+            }
+          },
+          "votes": "15"
+        },
+        "all_reviews_count": 8,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/maori-asa-norte-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 10,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/maori-asa-norte-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6600441",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/maori-asa-norte-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 32016066",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Casual Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6601145
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6601145",
+        "name": "Bierfass Pontão",
+        "url": "https:\/\/www.zomato.com\/brasilia\/bierfass-lago-lago-sul-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Pontão Lago Sul, SHIS 10, Lote 9, Lago Sul, Brasília",
+          "locality": "Pontão Lago Sul, Lago Sul",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.8248333333",
+          "longitude": "-47.8740000000",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Pontão Lago Sul, Lago Sul, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Brazilian, Seafood",
+        "timings": "12:00 to 24:00 (Mon),12:00 to 01:00 (Tue-Thu),12:00 to 02:00 (Fri-Sat),Closed (Sun)",
+        "average_cost_for_two": 200,
+        "price_range": 4,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Lunch",
+          "Serves Alcohol",
+          "Dinner",
+          "Air Conditioned",
+          "Outdoor Seating"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.5",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.5"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "500"
+            }
+          },
+          "votes": "13"
+        },
+        "all_reviews_count": 8,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/bierfass-lago-lago-sul-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 37,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/bierfass-lago-lago-sul-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6601145",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/bierfass-lago-lago-sul-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 33644041",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Fine Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6600542
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6600542",
+        "name": "Avenida Paulista",
+        "url": "https:\/\/www.zomato.com\/brasilia\/avenida-paulista-setor-de-clubes-esportivos-sul-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "SCES, Trecho 2, Lote 41, Setor de Clubes Esportivos Sul, Brasília",
+          "locality": "Setor De Clubes Esportivos Sul",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.8193333333",
+          "longitude": "-47.8338333333",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Setor De Clubes Esportivos Sul, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Italian, Pizza",
+        "timings": "18:30 to 24:00 (Mon, Tue, Wed, Thu, Sun), 18:30 to 01:00 (Fri-Sat)",
+        "average_cost_for_two": 150,
+        "price_range": 4,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Delivery",
+          "Dinner",
+          "Outdoor Seating"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": 0,
+          "rating_text": "Not rated",
+          "rating_color": "CBCBCB",
+          "rating_obj": {
+            "title": {
+              "text": "-"
+            },
+            "bg_color": {
+              "type": "grey",
+              "tint": "400"
+            }
+          },
+          "votes": 1
+        },
+        "all_reviews_count": 1,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/avenida-paulista-setor-de-clubes-esportivos-sul-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 72,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/avenida-paulista-setor-de-clubes-esportivos-sul-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6600542",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/avenida-paulista-setor-de-clubes-esportivos-sul-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 33224508",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Fine Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6600503
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6600503",
+        "name": "Mangai",
+        "url": "https:\/\/www.zomato.com\/brasilia\/mangai-setor-de-clubes-esportivos-sul-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "SCES, Trecho 2, Conjunto 41, Setor de Clubes Esportivos Sul, Brasília",
+          "locality": "Setor De Clubes Esportivos Sul",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.8178333333",
+          "longitude": "-47.8370000000",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Setor De Clubes Esportivos Sul, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "North Eastern, Bar Food",
+        "timings": "12:00 to 15:00, 18:00 to 22:00 (Mon-Thu),12:00 to 22:00 (Fri-Sun)",
+        "average_cost_for_two": 80,
+        "price_range": 3,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Dinner",
+          "Lunch",
+          "Serves Alcohol",
+          "Indoor Seating",
+          "Buffet"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.4",
+          "rating_text": "Average",
+          "rating_color": "CDD614",
+          "rating_obj": {
+            "title": {
+              "text": "3.4"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "500"
+            }
+          },
+          "votes": "12"
+        },
+        "all_reviews_count": 5,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/mangai-setor-de-clubes-esportivos-sul-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 154,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/mangai-setor-de-clubes-esportivos-sul-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6600503",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/mangai-setor-de-clubes-esportivos-sul-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 32243079",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Casual Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6600379
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6600379",
+        "name": "Sushi Loko",
+        "url": "https:\/\/www.zomato.com\/brasilia\/sushi-loko-2-asa-sul-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "SCS 213, Bloco C, Loja 35, Asa Sul, Brasília",
+          "locality": "Asa Sul",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.8310000000",
+          "longitude": "-47.9156666667",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Asa Sul, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Japanese",
+        "timings": "12:00 to 23:30 (Mon, Tue, Wed, Thu, Sun), 12:00 to 00:30 (Fri-Sat)",
+        "average_cost_for_two": 80,
+        "price_range": 3,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Lunch",
+          "Delivery",
+          "Dinner",
+          "Air Conditioned",
+          "Outdoor Seating"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.5",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.5"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "500"
+            }
+          },
+          "votes": "15"
+        },
+        "all_reviews_count": 7,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/sushi-loko-2-asa-sul-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 8,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/sushi-loko-2-asa-sul-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6600379",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/sushi-loko-2-asa-sul-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 32641199",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Casual Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6601005
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6601005",
+        "name": "Café Daniel Briand",
+        "url": "https:\/\/www.zomato.com\/brasilia\/daniel-briand-asa-norte-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "SCLN 104, Bloco A, Loja 26, Asa Norte, Brasília",
+          "locality": "Asa Norte",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.7775000000",
+          "longitude": "-47.8826666667",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Asa Norte, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Cafe",
+        "timings": "09:00 to 22:00 (Mon-Fri),08:00 to 22:00 (Sat-Sun)",
+        "average_cost_for_two": 30,
+        "price_range": 1,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Breakfast",
+          "Wifi",
+          "Outdoor Seating"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.6",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.6"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "600"
+            }
+          },
+          "votes": "14"
+        },
+        "all_reviews_count": 9,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/daniel-briand-asa-norte-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 8,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/daniel-briand-asa-norte-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6601005",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/daniel-briand-asa-norte-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 33261135",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Café"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6601158
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6601158",
+        "name": "Manzuá",
+        "url": "https:\/\/www.zomato.com\/brasilia\/manzuá-lago-sul-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Pontão Lago Sul, SHIS 10, Lote 9, Lago Sul, Brasília",
+          "locality": "Pontão Lago Sul, Lago Sul",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.8256666667",
+          "longitude": "-47.8728333333",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Pontão Lago Sul, Lago Sul, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Seafood",
+        "timings": "12:00 to 24:00 (Mon-Sun)",
+        "average_cost_for_two": 240,
+        "price_range": 4,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Lunch",
+          "Serves Alcohol",
+          "Dinner",
+          "Wifi",
+          "Outdoor Seating"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "2.8",
+          "rating_text": "Average",
+          "rating_color": "FFBA00",
+          "rating_obj": {
+            "title": {
+              "text": "2.8"
+            },
+            "bg_color": {
+              "type": "yellow",
+              "tint": "500"
+            }
+          },
+          "votes": "8"
+        },
+        "all_reviews_count": 6,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/manzuá-lago-sul-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 20,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/manzuá-lago-sul-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6601158",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/manzuá-lago-sul-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 33646090",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Fine Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6601595
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6601595",
+        "name": "Outback Steakhouse",
+        "url": "https:\/\/www.zomato.com\/brasilia\/outback-steakhouse-guará-i-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "ParkShopping - Piso 2, SAI\/SO, Área 6580, Guará I, Brasília",
+          "locality": "ParkShopping, Guará I",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.8345138889",
+          "longitude": "-47.9562833333",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "ParkShopping, Guará I, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "American, Grill",
+        "timings": "10:00 to 22:00 (Mon-Sat),12:00 to 22:00 (Sun)",
+        "average_cost_for_two": 150,
+        "price_range": 4,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Dinner",
+          "Lunch",
+          "Serves Alcohol",
+          "Air Conditioned",
+          "Outdoor Seating",
+          "Wifi"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.9",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.9"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "600"
+            }
+          },
+          "votes": "13"
+        },
+        "all_reviews_count": 8,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/outback-steakhouse-guará-i-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 8,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/outback-steakhouse-guará-i-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6601595",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/outback-steakhouse-guará-i-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 32347958",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Fine Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6600611
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6600611",
+        "name": "Fred",
+        "url": "https:\/\/www.zomato.com\/brasilia\/fred-asa-sul-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "SCLS 405, Bloco B, Loja 10, Asa Sul, Brasília",
+          "locality": "Asa Sul",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.8138333333",
+          "longitude": "-47.8905000000",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Asa Sul, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "German",
+        "timings": "12:00 to 16:00, 19:00 to 24:00 (Mon-Sun)",
+        "average_cost_for_two": 180,
+        "price_range": 4,
+        "currency": "R$",
+        "highlights": [
+          "Lunch",
+          "Serves Alcohol",
+          "Credit Card",
+          "Dinner",
+          "Air Conditioned",
+          "Indoor Seating"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.6",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.6"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "600"
+            }
+          },
+          "votes": "8"
+        },
+        "all_reviews_count": 6,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/fred-asa-sul-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 12,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/fred-asa-sul-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6600611",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/fred-asa-sul-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 34431450",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Fine Dining"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6600810
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6600810",
+        "name": "Beirute",
+        "url": "https:\/\/www.zomato.com\/brasilia\/beirute-asa-norte?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "SCLN, 107, Bloco D, Loja 19, Asa Norte, Brasília",
+          "locality": "Asa Norte",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.7653333333",
+          "longitude": "-47.8863333333",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Asa Norte, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Arabian",
+        "timings": "11:00 to 01:00 (Mon, Tue, Wed, Sun), 11:00 to 02:00 (Thu-Sat)",
+        "average_cost_for_two": 90,
+        "price_range": 3,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Delivery",
+          "Lunch",
+          "Serves Alcohol",
+          "Dinner",
+          "Air Conditioned",
+          "Outdoor Seating",
+          "Wifi",
+          "Nightlife"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.8",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "rating_obj": {
+            "title": {
+              "text": "3.8"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "600"
+            }
+          },
+          "votes": "14"
+        },
+        "all_reviews_count": 4,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/beirute-asa-norte\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 6,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/beirute-asa-norte\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6600810",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/beirute-asa-norte\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 32720123",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Bar"
+        ],
+        "establishment_types": []
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 6601569
+        },
+        "apikey": "77576b2dae845bf32c1de0795a7753e1",
+        "id": "6601569",
+        "name": "El Negro",
+        "url": "https:\/\/www.zomato.com\/brasilia\/el-negro-asa-norte-brasilia?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "SCLN 413, Bloco C, Asa Norte, Brasilia",
+          "locality": "Asa Norte",
+          "city": "Brasília",
+          "city_id": 66,
+          "latitude": "-15.7603720000",
+          "longitude": "-47.8879580000",
+          "zipcode": "",
+          "country_id": 30,
+          "locality_verbose": "Asa Norte, Brasília"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Argentine, Contemporary",
+        "timings": "Closed (Mon),12:00 to 24:00 (Tue-Sat),12:00 to 17:00 (Sun)",
+        "average_cost_for_two": 300,
+        "price_range": 4,
+        "currency": "R$",
+        "highlights": [
+          "Credit Card",
+          "Dinner",
+          "Lunch",
+          "Serves Alcohol",
+          "Air Conditioned",
+          "Fullbar",
+          "Outdoor Seating"
+        ],
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "2.5",
+          "rating_text": "Average",
+          "rating_color": "FFBA00",
+          "rating_obj": {
+            "title": {
+              "text": "2.5"
+            },
+            "bg_color": {
+              "type": "orange",
+              "tint": "400"
+            }
+          },
+          "votes": "11"
+        },
+        "all_reviews_count": 4,
+        "photos_url": "https:\/\/www.zomato.com\/brasilia\/el-negro-asa-norte-brasilia\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 13,
+        "menu_url": "https:\/\/www.zomato.com\/brasilia\/el-negro-asa-norte-brasilia\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/6601569",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/brasilia\/el-negro-asa-norte-brasilia\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "061 30418775",
+        "all_reviews": {
+          "reviews": [
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            },
+            {
+              "review": []
+            }
+          ]
+        },
+        "establishment": [
+          "Fine Dining"
+        ],
+        "establishment_types": []
+      }
+    }
+  ]
+}

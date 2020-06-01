@@ -13,7 +13,7 @@ import Stars from './../stars/Stars'
 
 function Restaurant(rest) {
   return (
-    <Container>
+    <Container className="restaurant">
       <ProfilePic src="https://via.placeholder.com/350x150" alt="" />
       <DescriptionBox>
         <Title>{rest.name}</Title>

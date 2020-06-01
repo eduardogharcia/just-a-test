@@ -61,6 +61,7 @@ export const SearchResults = styled.ul`
     cursor: pointer;
     a{
       color: #484848;
+      display: block;
     }
     p{
       display: block;

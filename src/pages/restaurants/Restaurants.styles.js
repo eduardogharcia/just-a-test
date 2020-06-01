@@ -45,8 +45,9 @@ export const Main = styled.main`
 `
 
 export const Sidebar = styled.div`
-  position: fixed;
+  position: absolute;
   width: 250px;
+  top: 0;
   left: -250px;
   min-height: 100vh;
   padding: 20px;

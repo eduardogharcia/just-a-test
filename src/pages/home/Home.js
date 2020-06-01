@@ -3,7 +3,7 @@ import SearchCities from './../../components/search-cities/SearchCities'
 import { Container, ContentWrapper, Title, LogoWrapper } from './Home.styles'
 import Logo from './../../components/logo/Logo'
 
-function Home() {
+function Home({ modal = () => {}}) {
   return (
     <Container>
       <LogoWrapper>
@@ -11,7 +11,7 @@ function Home() {
       </LogoWrapper>
       <ContentWrapper>
         <Title>Descubra os melhores restaurantes em sua cidade</Title>
-        <SearchCities />
+        <SearchCities modal={modal} />
       </ContentWrapper>
     </Container>
   );

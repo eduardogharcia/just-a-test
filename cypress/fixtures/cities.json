@@ -1,0 +1,49 @@
+{
+  "location_suggestions": [
+    {
+      "id": 73,
+      "name": "Cidade 1",
+      "country_id": 30,
+      "country_name": "Brasil",
+      "country_flag_url": "https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_30.png",
+      "should_experiment_with": 0,
+      "has_go_out_tab": 0,
+      "discovery_enabled": 0,
+      "has_new_ad_format": 0,
+      "is_state": 0,
+      "state_id": 0,
+      "state_name": "",
+      "state_code": ""
+    },
+    {
+      "id": 8011,
+      "name": "Cidade 2",
+      "country_id": 216,
+      "country_name": "United States",
+      "country_flag_url": "https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_216.png",
+      "should_experiment_with": 0,
+      "has_go_out_tab": 0,
+      "discovery_enabled": 0,
+      "has_new_ad_format": 0,
+      "is_state": 0,
+      "state_id": 73,
+      "state_name": "California",
+      "state_code": "CA"
+    },
+    {
+      "id": 9202,
+      "name": "Cidade 3",
+      "country_id": 216,
+      "country_name": "United States",
+      "country_flag_url": "https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_216.png",
+      "should_experiment_with": 0,
+      "has_go_out_tab": 0,
+      "discovery_enabled": 0,
+      "has_new_ad_format": 0,
+      "is_state": 0,
+      "state_id": 111,
+      "state_name": "Texas",
+      "state_code": "TX"
+    }
+  ]
+}

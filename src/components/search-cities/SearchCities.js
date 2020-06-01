@@ -10,7 +10,7 @@ import {
   IconContainer
 } from './SearchCities.styles'
 
-const SearchCities = () => {
+const SearchCities = ({ modal = () => {}}) => {
   const [searchTerm, setSearchTerm] = useState('')
   const [cities, setCities] = useState([])
   const [isLoadingCities, setIsLoadingCities] = useState(false)
@@ -21,12 +21,17 @@ const SearchCities = () => {
     if (!searchTerm || isLoadingCities) return
 
     setIsLoadingCities(true)
-    const cities = await searchCities(searchTerm)
-    setCities(cities)
-    if (cities.length > 0) {
-      setShowResults(true)
+    try {
+      const cities = await searchCities(searchTerm)
+      setCities(cities)
+      if (cities.length > 0) {
+        setShowResults(true)
+      }
+    } catch (error) {
+      modal('Ocorreu um problema ao conectar com o servidor')      
+    } finally {
+      setIsLoadingCities(false)
     }
-    setIsLoadingCities(false)
   }
 
   return (
@@ -34,12 +39,14 @@ const SearchCities = () => {
       <InputArea>
         <input
           type="text"
+          autoFocus
+          className="search-input"
           placeholder="Digite sua cidade"
           value={searchTerm}
           onChange={evt => setSearchTerm(evt.target.value)}
         />
-        <LoadingIcon loading={isLoadingCities} />
-        {showResults ? <SearchCitiesResultsList cities={cities} select={() => setShowResults(false)} /> : ''} 
+        <InputIcon loading={isLoadingCities} />
+        {showResults ? <SearchCitiesResultsList cities={cities} select={() => setShowResults(false)}  /> : ''} 
       </InputArea>
       <Button type="submit">Buscar</Button>
     </Form>
@@ -62,13 +69,13 @@ function SearchCitiesResultsList ({ cities, select }) {
   })
 
   return (
-    <SearchResults>
+    <SearchResults className="result-list">
       {citiesToShow}
     </SearchResults>
   )
 }
 
-function LoadingIcon ({ loading = false }) {
+function InputIcon ({ loading = false }) {
   if (loading) {
     return (
       <IconContainer className="isLoading">
@@ -77,7 +84,7 @@ function LoadingIcon ({ loading = false }) {
     )
   }
   return (
-    <IconContainer>
+    <IconContainer className="pin">
       <PinIcon />
     </IconContainer>
   )
