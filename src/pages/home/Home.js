@@ -10,7 +10,7 @@ function Home({ modal = () => {}}) {
         <Logo type="white"/>
       </LogoWrapper>
       <ContentWrapper>
-        <Title>Descubra os melhores restaurantes em sua cidade</Title>
+        <Title>Descubra os melhores restaurantes em sua cidade.</Title>
         <SearchCities modal={modal} />
       </ContentWrapper>
     </Container>
