@@ -78,4 +78,21 @@ describe('Home page', () => {
       .should('not.exist')
 
   })
+
+  it ('Show a not found modal message', () => {
+    cy.server()
+    cy.route({
+      method: 'GET',
+      url: '/api/v2.1/cities*',
+      response: {
+        location_suggestions: []
+      }
+    })
+
+    cy.get('.search-input')
+      .type('São Paulo')
+      .type('{enter}')
+
+    cy.contains('Ops, nada encontrado')
+  })
 })

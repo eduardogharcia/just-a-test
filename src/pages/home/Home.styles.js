@@ -34,6 +34,7 @@ export const Title = styled.h2`
   line-height: 1em;
   color: #fff;
   font-weight: 800;
+  margin-bottom: 30px;
   @media(min-width: ${breakpoints.md}){
     font-size: 3.333em;
   }

@@ -28,6 +28,8 @@ const SearchCities = ({ modal = () => {}}) => {
       setCities(cities)
       if (cities.length > 0) {
         setShowResults(true)
+      } else {
+        modal('Ops, nada encontrado')      
       }
     } catch (error) {
       modal('Ocorreu um problema ao conectar com o servidor')      
