@@ -149,4 +149,26 @@ describe('Restaurants page', () => {
     cy.get('label[for="cuisine-argentine"]')
       .click()
   })
+
+  it('Show and hide side bar on mobile', () => {
+    cy.server()
+    cy.route({
+      method: 'GET',
+      url: '/api/v2.1/search*',
+      response: restaurants
+    })
+    cy.visit('/restaurants/73')
+
+    cy.viewport(768, 800)
+
+    cy.get('.open-filter')
+      .should('not.visible')
+
+    // Mobile
+    cy.viewport(767, 800)
+
+    cy.get('.open-filter')
+      .should('be.visible')
+
+  })
 })

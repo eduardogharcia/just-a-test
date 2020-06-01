@@ -9,7 +9,8 @@ import {
   Main,
   Sidebar,
   Content,
-  LoadingWrapper
+  LoadingWrapper,
+  ToggleMobileFilters
 } from './Restaurants.styles'
 import { Row, Column } from './../../styles/Grid.styles'
 import Logo from './../../components/logo/Logo'
@@ -19,6 +20,8 @@ import FiltersPlaceholders from './../../components/filters/FiltersPlaceholder'
 import Restaurant from './../../components/restaurant/Restaurant'
 import { restaurantsByCityId } from './../../services/api'
 import LoadSpinner from './../../components/load-spinner/LoadSpinner'
+import TimesIcon from './../../components/icons/TimesIcon'
+import FilterIcon from './../../components/icons/FilterIcon'
 
 function Restaurants({ modal = () => {}}) {
   const { cityId } = useParams()
@@ -28,6 +31,7 @@ function Restaurants({ modal = () => {}}) {
   const [restaurantsToShow, setRestaurantsToShow] = useState(true)
   const [filterOptions, setFilterOptions] = useState(null)
   const [cuisines, setCuisines] = useState([])
+  const [showSidebar, setShowSidebar] = useState(false)
 
   useEffect(() => {
     setFilterOptions(null)
@@ -52,8 +56,12 @@ function Restaurants({ modal = () => {}}) {
     setRestaurantsToShow(applyFilters(restaurants, filterOptions))
   }, [restaurants, filterOptions])
 
-  function handleChangeFilter(filterOptions) {
+  function handleChangeFilter (filterOptions) {
     setFilterOptions(filterOptions)
+  }
+
+  function handleToggleMobileFilters () {
+    setShowSidebar(!showSidebar)
   }
 
   return (
@@ -69,14 +77,20 @@ function Restaurants({ modal = () => {}}) {
         </SearchCitiesArea>
       </Header>
       <Main>
-        <Sidebar>
+        <Sidebar className="sidebar" toggle={showSidebar}>
           {
             !isLoadingRestaurants ?
             <Filters cuisines={cuisines} change={handleChangeFilter} /> :
             <FiltersPlaceholders />
           }
+          <ToggleMobileFilters onClick={handleToggleMobileFilters}>
+            <TimesIcon />
+          </ToggleMobileFilters>
         </Sidebar>
         <Content>
+          <ToggleMobileFilters className="open-filter" onClick={handleToggleMobileFilters}>
+            <FilterIcon />
+          </ToggleMobileFilters>
           {
             !isLoadingRestaurants ?
             <>

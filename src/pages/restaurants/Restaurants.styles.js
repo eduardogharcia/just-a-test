@@ -51,8 +51,22 @@ export const Sidebar = styled.div`
   left: -250px;
   min-height: 100vh;
   padding: 20px;
+  transition: left 200ms ease;
+  @media(max-width: 767px){
+    button{
+      position: absolute;
+      top: 20px;
+      right: -20px;
+      display: none;
+      ${({ toggle }) => toggle && 'display: block'}
+    }
+    ${({ toggle }) => toggle && 'left: 0'}
+  }
   @media(min-width: ${breakpoints.md}){
     left: 0;
+    button{
+      display: none;
+    }
   }
 `
 
@@ -69,4 +83,25 @@ export const LoadingWrapper = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 400px;
+`
+
+export const ToggleMobileFilters = styled.button`
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  svg{
+    width: 15px;
+  }
+  svg > * {
+    fill: #333;
+  }
+  @media(min-width: ${breakpoints.md}){
+    display: none;
+  }
 `
