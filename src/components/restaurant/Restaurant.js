@@ -10,11 +10,12 @@ import {
   FeaturedSuccess
 } from './Restaurant.styles'
 import Stars from './../stars/Stars'
+import Placeholder from './../../assets/restaurant-placeholder.jpg'
 
 function Restaurant(rest) {
   return (
     <Container className="restaurant">
-      <ProfilePic src="https://via.placeholder.com/350x150" alt="" />
+      <ProfilePic src={Placeholder} alt="" />
       <DescriptionBox>
         <Title>{rest.name}</Title>
         { rest.location && <Address>{rest.location.locality_verbose}</Address>}
