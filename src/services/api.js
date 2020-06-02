@@ -34,7 +34,6 @@ export const restaurantsByCityId = async (cityId) => {
         }
       }
     })
-    
 
   return restaurants
 }
@@ -44,8 +43,8 @@ export const establishmentsByCityId = async (cityId) => {
   return response.data.establishments
 }
 
-
-function prepareCuisinesTypes (restaurant) {
+export const prepareCuisinesTypes = (restaurant) => {
+  if (!restaurant.cuisines) return []
   return restaurant.cuisines
     .split(',')
     .map(cuisine => {
@@ -56,6 +55,6 @@ function prepareCuisinesTypes (restaurant) {
     })
 }
 
-function filterRequiredApiReturns (rest) {
-  return rest.user_rating && rest.user_rating.aggregate_rating
+export const filterRequiredApiReturns = (rest) => {
+  return rest.user_rating && rest.user_rating.aggregate_rating ? true : false
 }
