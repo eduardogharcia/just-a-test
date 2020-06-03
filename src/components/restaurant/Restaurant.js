@@ -19,11 +19,11 @@ function Restaurant(rest) {
       <ProfilePic src={Placeholder} alt="" />
       <DescriptionBox>
         <Title>{rest.name}</Title>
-        { rest.location && <Address>{rest.location.locality_verbose}</Address>}
+        { rest.location && <Address className="restaurant_address">{rest.location.locality_verbose}</Address>}
         <Stars qty={ rest.user_rating.aggregate_rating } />
         <Meta>
-          <FeaturedSuccess><TwoPeopleIcon />{rest.currency}{rest.average_cost_for_two}</FeaturedSuccess>
-          <Featured>{rest.cuisines}</Featured>
+          <FeaturedSuccess className="restaurant_price"><TwoPeopleIcon />{rest.currency}{rest.average_cost_for_two}</FeaturedSuccess>
+          <Featured className="restaurant_cuisines">{rest.cuisines}</Featured>
         </Meta>
       </DescriptionBox>
     </Container>

@@ -3,11 +3,11 @@ import { StarContainer } from './Stars.styles'
 import StarFilledIcon from './../icons/StarFilledIcon'
 import StarOutlinedIcon from './../icons/StarOutlinedIcon'
 
-function Stars({ qty, type = 'filled'}) {
+function Stars({ qty = 0, type = 'filled'}) {
   const stars = []
   for(let i = 1; i <= qty; i++){
     stars.push(
-      <StarContainer key={i}>
+      <StarContainer className="star" key={i}>
         {
           type === 'filled' ?
           <StarFilledIcon /> :
