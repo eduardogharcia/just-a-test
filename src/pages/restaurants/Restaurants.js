@@ -31,6 +31,7 @@ import FilterIcon from './../../components/icons/FilterIcon'
 
 function Restaurants({ modal = () => {}}) {
   const { cityId } = useParams()
+  const [prevCityId, setPrevCityId] = useState(null)
   const [isLoadingRestaurants, setIsLoadingRestaurants] = useState(true)
   const [title, seTtitle] = useState('')
   const [restaurants, setRestaurants] = useState(true)
@@ -40,6 +41,8 @@ function Restaurants({ modal = () => {}}) {
   const [showSidebar, setShowSidebar] = useState(false)
 
   useEffect(() => {
+    if (prevCityId === cityId ) return
+
     setFilterOptions(null)
     async function load () {
       setIsLoadingRestaurants(true)
@@ -48,6 +51,7 @@ function Restaurants({ modal = () => {}}) {
         setRestaurants(restaurants)
         seTtitle(getPageTitle(restaurants))
         setCuisines(getCuisinesGroupedToFilters(restaurants))
+        setPrevCityId(cityId)
       } catch (error) {
         modal('Ocorreu um problema ao conectar com o servidor')
       } finally {
@@ -56,7 +60,7 @@ function Restaurants({ modal = () => {}}) {
 
     }
     load()
-  }, [cityId, modal])
+  }, [cityId, prevCityId, modal])
 
   useEffect(() => {
     setRestaurantsToShow(applyFilters(restaurants, filterOptions))
