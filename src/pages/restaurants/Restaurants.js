@@ -9,6 +9,7 @@ import {
   Main,
   Sidebar,
   Content,
+  Title,
   LoadingWrapper,
   ToggleMobileFilters
 } from './Restaurants.styles'
@@ -99,7 +100,7 @@ function Restaurants({ modal = () => {}}) {
           {
             !isLoadingRestaurants ?
             <>
-              <h2>Restaurantes em {title}</h2>
+              <Title>Restaurantes em {title}</Title>
               <Row className="result-area">
                 {
                   restaurantsToShow.map((restaurant) => {
